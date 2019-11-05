@@ -7,7 +7,78 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 div {
-  padding: .5rem;
   text-align: center;
+  font-size: 1.125rem;
+  max-width: 15em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  display: block;
+  margin-bottom: 1em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #333;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.btn:hover{
+  background-color: #000;
+}
+
+.btn-subtle {
+  background-color: #ccc;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.btn-subtle:hover{
+  background-color: #666;
+}
+
+.btn-ghost {
+  background-color: #fff;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  border: 3px solid #000;
+  color: #333;
+  display: inline-block;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+  color: #fff;
+  border-radius: 8px;
+  border: 3px solid #666;
+}
+
+.btn-warning {
+  background-color: #f33;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.btn-warning:hover {
+  background-color: #933;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
 }
