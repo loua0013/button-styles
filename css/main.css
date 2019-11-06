@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 1em 0;
 }
 
 div {
@@ -23,6 +23,8 @@ div {
   display: inline-block;
   text-decoration: none;
   color: #fff;
+  font-size: 1.125rem;
+  margin-bottom: .2em;
 }
 
 .btn:hover {
